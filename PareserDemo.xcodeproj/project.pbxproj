@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3227BF27155F8BA500613769 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3227BF26155F8BA500613769 /* UIKit.framework */; };
+		3227BF29155F8BA500613769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3227BF28155F8BA500613769 /* Foundation.framework */; };
+		3227BF2B155F8BA500613769 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3227BF2A155F8BA500613769 /* CoreGraphics.framework */; };
+		3227BF31155F8BA500613769 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3227BF2F155F8BA500613769 /* InfoPlist.strings */; };
+		3227BF34155F8BA500613769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3227BF33155F8BA500613769 /* main.m */; };
+		3227BF37155F8BA500613769 /* PareserDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3227BF36155F8BA500613769 /* PareserDemoAppDelegate.m */; };
+		3227BF3A155F8BA500613769 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3227BF38155F8BA500613769 /* MainWindow.xib */; };
+		3227BF3D155F8BA500613769 /* PareserDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3227BF3C155F8BA500613769 /* PareserDemoViewController.m */; };
+		3227BF40155F8BA600613769 /* PareserDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3227BF3E155F8BA500613769 /* PareserDemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3227BF22155F8BA500613769 /* PareserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PareserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3227BF26155F8BA500613769 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3227BF28155F8BA500613769 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3227BF2A155F8BA500613769 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3227BF2E155F8BA500613769 /* PareserDemo-Info.plist */ = {isa = PBXFileReference; path = "PareserDemo-Info.plist"; sourceTree = "<group>"; };
+		3227BF30155F8BA500613769 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3227BF32155F8BA500613769 /* PareserDemo-Prefix.pch */ = {isa = PBXFileReference; path = "PareserDemo-Prefix.pch"; sourceTree = "<group>"; };
+		3227BF33155F8BA500613769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3227BF35155F8BA500613769 /* PareserDemoAppDelegate.h */ = {isa = PBXFileReference; path = PareserDemoAppDelegate.h; sourceTree = "<group>"; };
+		3227BF36155F8BA500613769 /* PareserDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PareserDemoAppDelegate.m; sourceTree = "<group>"; };
+		3227BF39155F8BA500613769 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3227BF3B155F8BA500613769 /* PareserDemoViewController.h */ = {isa = PBXFileReference; path = PareserDemoViewController.h; sourceTree = "<group>"; };
+		3227BF3C155F8BA500613769 /* PareserDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PareserDemoViewController.m; sourceTree = "<group>"; };
+		3227BF3F155F8BA600613769 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PareserDemoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3227BF1F155F8BA500613769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3227BF27155F8BA500613769 /* UIKit.framework in Frameworks */,
+				3227BF29155F8BA500613769 /* Foundation.framework in Frameworks */,
+				3227BF2B155F8BA500613769 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3227BF17155F8BA500613769 = {
+			isa = PBXGroup;
+			children = (
+				3227BF2C155F8BA500613769 /* PareserDemo */,
+				3227BF25155F8BA500613769 /* Frameworks */,
+				3227BF23155F8BA500613769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3227BF23155F8BA500613769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3227BF22155F8BA500613769 /* PareserDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3227BF25155F8BA500613769 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3227BF26155F8BA500613769 /* UIKit.framework */,
+				3227BF28155F8BA500613769 /* Foundation.framework */,
+				3227BF2A155F8BA500613769 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3227BF2C155F8BA500613769 /* PareserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3227BF35155F8BA500613769 /* PareserDemoAppDelegate.h */,
+				3227BF36155F8BA500613769 /* PareserDemoAppDelegate.m */,
+				3227BF38155F8BA500613769 /* MainWindow.xib */,
+				3227BF3B155F8BA500613769 /* PareserDemoViewController.h */,
+				3227BF3C155F8BA500613769 /* PareserDemoViewController.m */,
+				3227BF3E155F8BA500613769 /* PareserDemoViewController.xib */,
+				3227BF2D155F8BA500613769 /* Supporting Files */,
+			);
+			path = PareserDemo;
+			sourceTree = "<group>";
+		};
+		3227BF2D155F8BA500613769 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3227BF2E155F8BA500613769 /* PareserDemo-Info.plist */,
+				3227BF2F155F8BA500613769 /* InfoPlist.strings */,
+				3227BF32155F8BA500613769 /* PareserDemo-Prefix.pch */,
+				3227BF33155F8BA500613769 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3227BF21155F8BA500613769 /* PareserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3227BF43155F8BA600613769 /* Build configuration list for PBXNativeTarget "PareserDemo" */;
+			buildPhases = (
+				3227BF1E155F8BA500613769 /* Sources */,
+				3227BF1F155F8BA500613769 /* Frameworks */,
+				3227BF20155F8BA500613769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PareserDemo;
+			productName = PareserDemo;
+			productReference = 3227BF22155F8BA500613769 /* PareserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3227BF19155F8BA500613769 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3227BF1C155F8BA500613769 /* Build configuration list for PBXProject "PareserDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3227BF17155F8BA500613769;
+			productRefGroup = 3227BF23155F8BA500613769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3227BF21155F8BA500613769 /* PareserDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3227BF20155F8BA500613769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3227BF31155F8BA500613769 /* InfoPlist.strings in Resources */,
+				3227BF3A155F8BA500613769 /* MainWindow.xib in Resources */,
+				3227BF40155F8BA600613769 /* PareserDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3227BF1E155F8BA500613769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3227BF34155F8BA500613769 /* main.m in Sources */,
+				3227BF37155F8BA500613769 /* PareserDemoAppDelegate.m in Sources */,
+				3227BF3D155F8BA500613769 /* PareserDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3227BF2F155F8BA500613769 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3227BF30155F8BA500613769 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3227BF38155F8BA500613769 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3227BF39155F8BA500613769 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3227BF3E155F8BA500613769 /* PareserDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3227BF3F155F8BA600613769 /* en */,
+			);
+			name = PareserDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3227BF41155F8BA600613769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3227BF42155F8BA600613769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		3227BF44155F8BA600613769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PareserDemo/PareserDemo-Prefix.pch";
+				INFOPLIST_FILE = "PareserDemo/PareserDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3227BF45155F8BA600613769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PareserDemo/PareserDemo-Prefix.pch";
+				INFOPLIST_FILE = "PareserDemo/PareserDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3227BF1C155F8BA500613769 /* Build configuration list for PBXProject "PareserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3227BF41155F8BA600613769 /* Debug */,
+				3227BF42155F8BA600613769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3227BF43155F8BA600613769 /* Build configuration list for PBXNativeTarget "PareserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3227BF44155F8BA600613769 /* Debug */,
+				3227BF45155F8BA600613769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3227BF19155F8BA500613769 /* Project object */;
+}
