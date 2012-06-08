@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Category.h"
 
-@interface PareserDemoViewController : UIViewController {
+@interface PareserDemoViewController : UIViewController<NSXMLParserDelegate> {
     
+    NSString		*current;
+	NSMutableString	*outstring;
+    NSMutableArray *categories;
 }
-
+- (NSString *)parseXMLFile: (NSURL *) url;
 @end

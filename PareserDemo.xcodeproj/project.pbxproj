@@ -16,6 +16,7 @@
 		3227BF3A155F8BA500613769 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3227BF38155F8BA500613769 /* MainWindow.xib */; };
 		3227BF3D155F8BA500613769 /* PareserDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3227BF3C155F8BA500613769 /* PareserDemoViewController.m */; };
 		3227BF40155F8BA600613769 /* PareserDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3227BF3E155F8BA500613769 /* PareserDemoViewController.xib */; };
+		3227BF48155F928000613769 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3227BF47155F928000613769 /* Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		3227BF26155F8BA500613769 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3227BF28155F8BA500613769 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3227BF2A155F8BA500613769 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3227BF2E155F8BA500613769 /* PareserDemo-Info.plist */ = {isa = PBXFileReference; path = "PareserDemo-Info.plist"; sourceTree = "<group>"; };
+		3227BF2E155F8BA500613769 /* PareserDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PareserDemo-Info.plist"; sourceTree = "<group>"; };
 		3227BF30155F8BA500613769 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3227BF32155F8BA500613769 /* PareserDemo-Prefix.pch */ = {isa = PBXFileReference; path = "PareserDemo-Prefix.pch"; sourceTree = "<group>"; };
+		3227BF32155F8BA500613769 /* PareserDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PareserDemo-Prefix.pch"; sourceTree = "<group>"; };
 		3227BF33155F8BA500613769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3227BF35155F8BA500613769 /* PareserDemoAppDelegate.h */ = {isa = PBXFileReference; path = PareserDemoAppDelegate.h; sourceTree = "<group>"; };
+		3227BF35155F8BA500613769 /* PareserDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PareserDemoAppDelegate.h; sourceTree = "<group>"; };
 		3227BF36155F8BA500613769 /* PareserDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PareserDemoAppDelegate.m; sourceTree = "<group>"; };
 		3227BF39155F8BA500613769 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		3227BF3B155F8BA500613769 /* PareserDemoViewController.h */ = {isa = PBXFileReference; path = PareserDemoViewController.h; sourceTree = "<group>"; };
+		3227BF3B155F8BA500613769 /* PareserDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PareserDemoViewController.h; sourceTree = "<group>"; };
 		3227BF3C155F8BA500613769 /* PareserDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PareserDemoViewController.m; sourceTree = "<group>"; };
 		3227BF3F155F8BA600613769 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PareserDemoViewController.xib; sourceTree = "<group>"; };
+		3227BF46155F928000613769 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		3227BF47155F928000613769 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				3227BF3C155F8BA500613769 /* PareserDemoViewController.m */,
 				3227BF3E155F8BA500613769 /* PareserDemoViewController.xib */,
 				3227BF2D155F8BA500613769 /* Supporting Files */,
+				3227BF46155F928000613769 /* Category.h */,
+				3227BF47155F928000613769 /* Category.m */,
 			);
 			path = PareserDemo;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				3227BF34155F8BA500613769 /* main.m in Sources */,
 				3227BF37155F8BA500613769 /* PareserDemoAppDelegate.m in Sources */,
 				3227BF3D155F8BA500613769 /* PareserDemoViewController.m in Sources */,
+				3227BF48155F928000613769 /* Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
